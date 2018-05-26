@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "166740048674",
+    "firebase_url": "https://agrovizionmonitoreoderecorrido.firebaseio.com",
+    "project_id": "agrovizionmonitoreoderecorrido",
+    "storage_bucket": "agrovizionmonitoreoderecorrido.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166740048674:android:c7ab72bce0955dcd",
+        "android_client_info": {
+          "package_name": "com.agrovizion.jonnathan.agrovizion_monitoreo_de_recorridos_agrovizion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "166740048674-mglai0lf3vbdpftlpekvvff3g3bm7bkt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.agrovizion.jonnathan.agrovizion_monitoreo_de_recorridos_agrovizion",
+            "certificate_hash": "350be9bd34779a2f00600ab350da2066bbc0aed1"
+          }
+        },
+        {
+          "client_id": "166740048674-ppooq7se9fhl8rn03752u6ipog1p4d97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBe0tt6pabFzR3bLAGLGlaNJE7l4ooGwM0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "166740048674-ppooq7se9fhl8rn03752u6ipog1p4d97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

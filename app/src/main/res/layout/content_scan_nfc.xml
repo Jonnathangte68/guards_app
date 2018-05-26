@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.agrovizion.jonnathan.agrovizion_monitoreo_de_recorridos_agrovizion.ScanNfc"
+    tools:showIn="@layout/activity_scan_nfc"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lltotal"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="Imagen de Usuario"
+                android:src="@drawable/guardia" />
+
+            <TextView
+                android:id="@+id/txtNombreUsuario"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:layout_toEndOf="@+id/imageView2"
+                android:gravity="center_vertical"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/btnComentar"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/comentarioicono" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtSucursalName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textAllCaps="true"/>
+
+    <LinearLayout
+        android:id="@+id/lmenu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/btnStatus"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/txtCheckpointName"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="14dp"
+                android:background="@color/blanco" />
+
+            <TextView
+                android:id="@+id/txtCheckpointName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_toEndOf="@+id/btnStatus"
+                android:text="Checkpoint Y"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="50dp"
+        android:src="@drawable/nfcs"
+        android:contentDescription="Escanear NFCs"/>
+
+    <Button
+        android:id="@+id/btnRegresarDelScan"
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginVertical="30dp"
+        android:background="#2E7D32"
+        android:text="REGRESAR"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

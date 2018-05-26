@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.agrovizion.jonnathan.agrovizion_monitoreo_de_recorridos_agrovizion.Alarma"
+    tools:showIn="@layout/activity_alarma"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lltotal"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/user"
+            android:contentDescription="Imagen de Usuario"/>
+
+        <TextView
+            android:id="@+id/txtNombreUsuario"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtSucursalName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:contentDescription="alarma"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/alarma" />
+
+    <ListView
+        android:id="@+id/listaFaltantes"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"></ListView>
+
+    <Button
+        android:id="@+id/btnSeguir"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="88dp"
+        android:background="#2E7D32"
+        android:text="Continuar..."
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100sp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imgView1"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="15dp"
+        android:src="@android:drawable/ic_dialog_map" />
+
+    <TextView
+        android:id="@+id/txtView1"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Prueba"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/imgButton1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="10dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/camaraicono" />
+
+    <ImageButton
+        android:id="@+id/imgButton2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="2dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/mapaicono" />
+
+    <ImageButton
+        android:id="@+id/imgButton3"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="2dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/comentarioicono" />
+
+</LinearLayout>

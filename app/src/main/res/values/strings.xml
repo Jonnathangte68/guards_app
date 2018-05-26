@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Recorrido de guardias</string>
+    <string name="titulo_secundario">Recorridos de Monitoreo</string>
+    <string name="form_username">Usuario:</string>
+    <string name="form_contrasena">Contraseña:</string>
+    <string name="btnLogin">ENTRAR</string>
+    <string name="configuracion">Sucursales</string>
+    <string name="username">Maria.Gamez</string>
+    <string name="sucursal_seleccionada">NAVOLATO</string>
+    <string name="title_activity_sucursales">Sucursales</string>
+    <string-array name="sucursales_array">
+        <item>Chihuahua</item>
+        <item>Corazon</item>
+        <item>Durango</item>
+        <item>Mexicali</item>
+        <item>Navolato</item>
+        <item>Obregon</item>
+        <item>San Luis</item>
+        <item>Torreon</item>
+        <item>Silva</item>
+    </string-array>
+    <string name="title_activity_comentario_relevante">ComentarioRelevante</string>
+    <string name="title_activity_scan_nfc">ScanNfc</string>
+    <string name="title_activity_escaneo_de_punto_criticos">EscaneoDePuntoCriticos</string>
+    <string name="title_activity_alarma">Alarma</string>
+
+</resources>

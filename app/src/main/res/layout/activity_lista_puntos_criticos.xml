@@ -1,0 +1,65 @@
+<?xml version="1.1" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.agrovizion.jonnathan.agrovizion_monitoreo_de_recorridos_agrovizion.ListaPuntosCriticos"
+    tools:menu="@menu/toolbar"
+    >
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lltotal"
+        android:layout_alignParentEnd="true"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@android:drawable/stat_notify_sync_noanim" />
+
+    <LinearLayout
+        android:id="@+id/lltotal"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/guardia" />
+
+        <TextView
+            android:id="@+id/txtNombreUsuario"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtSucursalName"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginStart="180dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"/>
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/listViewOpciones"
+        android:layout_width="wrap_content"
+        android:layout_height="420dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtSucursalName"
+        tools:context=".ListaPuntosCriticos" />
+
+    <ImageView
+        android:id="@+id/imgMapa"
+        android:layout_width="250dp"
+        android:layout_height="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+</RelativeLayout>
